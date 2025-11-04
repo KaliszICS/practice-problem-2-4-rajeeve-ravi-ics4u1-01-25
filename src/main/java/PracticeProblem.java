@@ -3,11 +3,7 @@ public class PracticeProblem {
 	public static void main(String args[]) {
 
 	}
-    /**
-     * Sorts parallel arrays by names using selection sort (case-insensitive)
-     * @param names Array of names
-     * @param ages Array of ages (parallel to names)
-     */
+ 
     public static void selectionSortName(String[] names, int[] ages) {
         int n = names.length;
         for (int i = 0; i < n - 1; i++) {
@@ -29,11 +25,7 @@ public class PracticeProblem {
         }
     }
 
-    /**
-     * Sorts parallel arrays by ages using selection sort
-     * @param names Array of names (parallel to ages)
-     * @param ages Array of ages
-     */
+
     public static void selectionSortAge(String[] names, int[] ages) {
         int n = ages.length;
         for (int i = 0; i < n - 1; i++) {
